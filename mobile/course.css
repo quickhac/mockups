@@ -1,0 +1,73 @@
+#averages {
+	text-align: center;
+}
+
+#averages th {
+	padding-top: 6px;
+	color: #aaa;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+#averages td {
+	padding-bottom: 4px;
+	width: 144px;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.average {
+	margin: 0 4px 12px 4px;
+	font-weight: 300;
+	font-size: 18px;
+}
+
+.cycleavg {
+	float: left;
+}
+
+.semavg {
+	float: right;
+}
+
+.clear {
+	clear: both;
+}
+
+.catweight {
+	color: #bbb;
+}
+
+.catavg {
+	float: right;
+}
+
+section > header {
+	margin-bottom: 8px;
+}
+
+.assignment {
+	margin: 2px 0;
+}
+
+.assignment i {
+	padding-left: 2px;
+}
+
+.assignment:not(.missing) i {
+	color: #bbb;
+}
+
+.assignment.dropped, .assignment.dropped .pts {
+	color: #bbb;
+	text-decoration: line-through;
+}
+
+.assignment.missing {
+	color: #c00;
+}
+
+.pts {
+	float: right;
+}

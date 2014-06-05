@@ -1,0 +1,90 @@
+@import url('//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css');
+
+html, body {
+	margin: 0;
+	background: #666;
+}
+
+* {
+	font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* contains all elements */
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -240px;
+	margin-left: -160px;
+	width: 320px;
+	height: 480px;
+	background: #fff;
+}
+
+/* header/navigation bar */
+.content > header {
+	height: 42px;
+	background: rgb(70, 162, 221);
+}
+
+.title {
+	padding-top: 8px;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+}
+
+/* cards */
+
+.cards {
+	position: absolute;
+	top: 42px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	overflow: scroll;
+	padding: 16px;
+	background: #eee;
+}
+
+section {
+	margin-bottom: 20px;
+	padding: 12px 20px;
+	border-bottom: 3px solid #ddd;
+	background: #fff;
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+section.nopad {
+	padding: 0;
+}
+
+section > header {
+	font-weight: 300;
+	font-size: 20px;
+}
+
+section > header.pad {
+	padding: 12px 20px;
+}
+
+.half {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+.half h3 {
+	margin: 4px 0 0 0;
+	color: #ccc;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.clear {
+	clear: both;
+}

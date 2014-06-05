@@ -1,0 +1,26 @@
+.period {
+	float: right;
+	color: #888;
+}
+
+.gradetable {
+	width: 100%;
+}
+
+.gradetable th {
+	color: #bbb;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.gradetable td {
+	padding: 6px 0;
+	width: 20%;
+	text-align: center;
+}
+
+.gpa {
+	font-weight: 300;
+	font-size: 20px;
+}
