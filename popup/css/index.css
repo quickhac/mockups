@@ -12,7 +12,7 @@ body {
 	overflow: hidden;
 	margin-top: 64px;
 	width: 600px;
-	height: 318px;
+	height: 340px;
 	background: #fff;
 
 	font-family: 'Open Sans';
@@ -24,9 +24,9 @@ header {
 	padding: 8px;
 	min-height: 28px;
 
-	border-bottom: 1px solid #3498db;
+	background: url('../img/banner.png');
 
-	color: #3498db;
+	color: #fff;
 }
 
 header > span {
@@ -46,6 +46,7 @@ header > h1 {
 header > img {
 	width: 36px;
 	height: 36px;
+	margin-top: -4px;
 }
 
 span#popup-actions {
@@ -101,6 +102,10 @@ main {
 	text-align: center;
 }
 
+#grades td.grade.cycle {
+	font-weight: 600;
+}
+
 #events {
 	overflow: scroll;
 	flex: 1 1;
@@ -109,23 +114,6 @@ main {
 #events #gpa {
 	display: flex;
 	justify-content: space-around;
-}
-
-#gpa div {
-	text-align: center;
-}
-
-#gpa h3 {
-	margin: 0 0 2px 0;
-	font-size: 12px;
-	font-weight: 300;
-	text-transform: uppercase;
-
-	color: #888;
-}
-
-#gpa span {
-	font-weight: 600;
 }
 
 #events h2 {
@@ -149,7 +137,7 @@ main {
 	position: relative;
 	padding-bottom: 4px;
 
-	color: #ccc;
+	color: #aaa;
 }
 
 #events ul > li.unread {
@@ -176,4 +164,29 @@ main {
 	text-transform: uppercase;
 	font-weight: 300;
 	font-size: 12px;
+}
+
+footer {
+	display: flex;
+	box-sizing: border-box;
+	height: 28px;
+	padding: 2px 12px 0 12px;
+
+	background: url('../img/banner.png');
+	color: #fff;
+
+	font-size: 12px;
+}
+
+#gpa {
+	flex: 1 1;
+	text-align: right;
+}
+
+#expand {
+	display: inline-block;
+	padding: 3px 0 2px 12px;
+
+	color: inherit;
+	text-decoration: none;
 }
